@@ -17,3 +17,11 @@
 3. **Testing y Monitoreo:** Debido a la independencia, la integración y pruebas entre microservicios puede ser más compleja, así como el monitoreo de la salud de cada servicio.
 
 4. **Costos Iniciales:** La adopción de una arquitectura de microservicios puede implicar costos iniciales más altos debido a la implementación y gestión de múltiples servicios.
+
+### Consideraciones:
+
+- Si anticipas un crecimiento rápido y cambios frecuentes en diferentes áreas de tu sistema (pedidos, entregas, gestión de repartidores), los microservicios pueden ofrecer la flexibilidad necesaria.
+
+- Si la complejidad de gestión no es un problema y estás dispuesto a invertir en una infraestructura más compleja pero escalable, los microservicios podrían ser adecuados.
+
+- Si la velocidad de desarrollo y la implementación rápida son prioridades, tal vez una arquitectura monolítica inicial sea más apropiada antes de evolucionar hacia microservicios a medida que crece el proyecto.
